@@ -1,0 +1,33 @@
+# ===== Java 编译产物 =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+build/
+bin/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+~$*
+
+# ===== 依赖与本地配置 =====
+lib/
+*.properties.local
